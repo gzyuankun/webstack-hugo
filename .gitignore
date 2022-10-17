@@ -8,3 +8,4 @@ pull_code_itshare_work.sh
 hugo/*
 hugo/
 hugo
+pull_code_nav_itshare_work.sh
