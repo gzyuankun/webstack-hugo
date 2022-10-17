@@ -3,8 +3,9 @@
 #请求示例：
  #   https://api.iowen.cn/favicon/
  #   https://api.iowen.cn/favicon/www.baidu.com.png
+
 - taxonomy: 常用推荐
-  icon: far fa-star
+  icon: far fa-heart
   links: 
     - title: 网易邮箱
       logo: https://api.iowen.cn/favicon/mail.163.com.png
@@ -34,6 +35,10 @@
       logo: github.jpg
       url: https://github.com/
       description: GitHub 开源社区。
+    - title: Gitee
+      logo: https://api.iowen.cn/favicon/gitee.com.png
+      url: https://gitee.com/
+      description: 企业级 DevOps 研发管理平台
     - title: Md2X 定制版
       logo: mdx.png
       url: https://mdx.ncbix.com/
@@ -154,6 +159,14 @@
           logo: 电影天堂.png
           url: https://www.dygod.net/
           description: 电影天堂（DYGOD），高清电影下载。
+        - title: 虎牙直播
+          logo: https://api.iowen.cn/favicon/www.huya.com.png
+          url: https://www.huya.com/
+          description: 虎牙直播-中国领先的弹幕式互动直播平台
+        - title: 斗鱼直播
+          logo: https://api.iowen.cn/favicon/www.douyu.com.png
+          url: https://www.douyu.com/
+          description: 斗鱼每个人的直播平台
     - term: 游戏竞技
       links:
         - title: 百度贴吧
@@ -164,7 +177,50 @@
           logo: 战地之王.png
           url: https://ava.mangot5.com/ava/index
           description: 台服 AVA 战地之王。
-   
+
+- taxonomy: 软件资源
+  icon: far fa-eye
+  list:
+    - term: 发现软件
+      links:
+        - title: 果核剥壳
+          logo: https://api.iowen.cn/favicon/www.ghxi.com.png
+          url: https://www.ghxi.com/
+          description: 关注果核剥壳，解锁更多互联干货
+        - title: 腾讯软件中心
+          logo: https://api.iowen.cn/favicon/pc.qq.com.png
+          url: https://pc.qq.com/
+          description: 海量软件，轻松下载
+        - title: 360软件宝库
+          logo: https://api.iowen.cn/favicon/baoku.360.cn/baokuweb.html.png
+          url: https://baoku.360.cn/baokuweb.html
+          description: 一键安装，轻松便捷
+    - term: 镜像系统
+      links:
+        - title: 阿里巴巴开源镜像站
+          logo: https://api.iowen.cn/favicon/developer.aliyun.com/mirror.png
+          url: https://developer.aliyun.com/mirror/
+          description: 阿里巴巴开源镜像站-OPSX镜像站-阿里云开发者社区
+        - title: 清华大学镜像站
+          logo: https://api.iowen.cn/favicon/mirrors.tuna.tsinghua.edu.cn.png
+          url: https://mirrors.tuna.tsinghua.edu.cn/
+          description: 清华大学开源软件镜像站
+        - title: 网易镜像站
+          logo: https://api.iowen.cn/favicon/mirrors.163.com.png
+          url: https://mirrors.163.com/
+          description: 网易开源镜像站
+        - title: 微软官网镜像
+          logo: https://api.iowen.cn/favicon/www.microsoft.com/zh-cn/software-download.png
+          url: https://www.microsoft.com/zh-cn/software-download
+          description: 微软官网镜像下载地址
+        - title: MSDN
+          logo: https://api.iowen.cn/favicon/msdn.itellyou.cn.png
+          url: https://msdn.itellyou.cn/
+          description: 已经不在更新
+        - title: NEXT, ITELLYOU
+          logo: https://api.iowen.cn/favicon/next.itellyou.cn.png
+          url: https://next.itellyou.cn/
+          description: 提供可靠的原版软件
       
 - taxonomy: 素材资源
   icon: far fa-folder-open fa-lg
