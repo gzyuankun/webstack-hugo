@@ -1,13 +1,15 @@
 ---
-
+# logo图标
+#请求示例：
+ #   https://api.iowen.cn/favicon/
+ #   https://api.iowen.cn/favicon/www.baidu.com.png
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
-    - title: 关注我们
-      logo: ""
-      url: https://bioitee.com
-      qrcode: assets/images/logos/qrcode.jpg
-      description: BioIT 爱好者！
+    - title: 网易邮箱
+      logo: https://api.iowen.cn/favicon/mail.163.com.png
+      url: https://mail.163.com/
+      description: 你的专业电子邮局
     - title: 语雀
       logo: 语雀.jpg
       url: https://www.yuque.com/
@@ -57,32 +59,6 @@
 - taxonomy: 科研办公
   icon: fas fa-flask fa-lg
   list:
-    - term: 生物信息
-      links:
-        - title: NCBI
-          logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
-          description: National Center for Biotechnology Information.
-        - title: Bioconda
-          logo: bioconda.jpg
-          url: https://anaconda.org/bioconda/
-          description: "Bioconda :: Anaconda.org."
-        - title: CPAN
-          logo: cpan.jpg
-          url: https://metacpan.org/
-          description: Search the CPAN.
-        - title: Gitter Galaxy
-          logo: gitter.jpg
-          url: https://gitter.im/galaxyproject
-          description: Galaxy Gitter Community.
-        - title: R Project
-          logo: r-project.jpg
-          url: https://www.r-project.org/
-          description: https://www.r-project.org
-        - title: Bioconductor
-          logo: bioconductor.jpg
-          url: http://www.bioconductor.org/
-          description: http://www.bioconductor.org
     - term: 云服务器
       links:
         - title: 阿里云
@@ -106,13 +82,17 @@
           url: https://www.ji-cloud.cn/
           description: 云电脑-云游戏-手机变电脑软件。
         - title: 百度云
-          logo: baiduyunfavicon.ico
+          logo: https://api.iowen.cn/favicon/cloud.baidu.com.png
           url: https://cloud.baidu.com/
           description: 百度智能云专注云计算、智能大数据等专业解决方案
         - title: 青椒云
           logo: 青椒云.jpg
           url: https://www.qingjiaocloud.com/
           description: 云桌面,一站式云电脑服务平台。
+        - title: 狗云
+          logo: https://api.iowen.cn/favicon/www.dogyun.com.png
+          url: https://www.dogyun.com/
+          description: 灵活高效的弹性云服务器
     - term: 办公学习
       links:
         - title: 有道词典
@@ -131,6 +111,10 @@
           logo: ProcessOn.png
           url: https://www.processon.com/
           description: 免费在线作图、实时协作。
+        - title: 欧路词典
+          logo: https://api.iowen.cn/favicon/dict.eudic.net.png
+          url: https://dict.eudic.net/
+          description: 欧路词典在线翻译
         
 
 - taxonomy: 悠闲娱乐
