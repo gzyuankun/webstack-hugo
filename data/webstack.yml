@@ -358,6 +358,14 @@
           logo: sccnn.png
           url: http://www.sccnn.com/
           description: 免费素材共享平台。
+        - title: wallhaven
+          logo: https://api.iowen.cn/favicon/wallhaven.cc.png
+          url: https://wallhaven.cc/
+          description: wallhaven
+        - title: wallhaven
+          logo: https://api.iowen.cn/favicon/wall.alphacoders.com.png
+          url: https://wall.alphacoders.com/
+          description: wall.alphacoders
     - term: 字体资源
       links:
         - title: Google Font
